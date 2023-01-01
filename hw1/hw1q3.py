@@ -47,7 +47,7 @@ science.append(chem)
 
 science_avg = WeightedAverage(science)
 
-# social sciences
+# social sciences 
 psych = Class("psychology", GetGrades("psychology"), Points.psychology)
 history = Class("history", GetGrades("history"), Points.history)
 
